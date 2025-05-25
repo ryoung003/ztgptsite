@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us - ZeroTrace GPT</title>
+  <meta name="description" content="Get in touch with ZeroTrace GPT support for questions or feedback about our local ChatGPT management extension.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:title" content="Contact Us - ZeroTrace GPT">
+  <meta property="og:description" content="Have questions or feedback about ZeroTrace GPT? Reach out to our support team.">
+  <meta property="og:image" content="icons/icon128.png">
+  <meta property="og:type" content="website">
+
+  <!-- REMOVED: <link rel="stylesheet" href="styles.css"> -->
+  <script src="https://cdn.tailwindcss.com"></script> <!-- ADDED -->
+
+  <link rel="icon" href="icons/icon48.png">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased">
+  <!-- HEADER (Same as index.html, but highlight Contact link) -->
+  <header class="max-w-4xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+      <img src="icons/icon48.png" alt="ZeroTrace GPT Logo" class="w-8 h-8 sm:w-10 sm:h-10">
+      <h1 class="text-xl sm:text-2xl font-semibold text-gray-800">ZeroTrace GPT</h1>
+    </div>
+    <nav class="space-x-3 sm:space-x-4 text-sm sm:text-base">
+      <a href="/" class="text-gray-600 hover:text-green-600 transition-colors">Home</a>
+      <a href="privacy-policy.html" class="text-gray-600 hover:text-green-600 transition-colors">Privacy Policy</a>
+      <a href="contact.html" class="text-gray-600 hover:text-green-600 transition-colors font-semibold text-green-700">Contact</a>
+    </nav>
+  </header>
+
+  <!-- CONTACT FORM (Content remains the same as previously provided) -->
+  <main class="max-w-lg mx-auto p-6 sm:p-8 bg-white rounded-lg shadow-lg mt-8 mb-12">
+    <h2 class="text-2xl font-semibold mb-6 text-center text-gray-800">Contact Support</h2>
+    <p class="text-center text-gray-600 mb-6">
+      Have questions, feedback, or need assistance? Send us a message.
+      We typically respond within 24-48 hours.
+    </p>
+    <form action="mailto:support@ztgpt.org" method="POST" enctype="text/plain" class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+        <input type="text" name="name" id="name" required
+               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
+               placeholder="John Doe">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+        <input type="email" name="email" id="email" required
+               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
+               placeholder="you@example.com">
+      </div>
+      <div>
+        <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+        <input type="text" name="subject" id="subject" required
+               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
+               placeholder="Question about ZeroTrace GPT">
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+        <textarea name="message" id="message" rows="4" required
+                  class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
+                  placeholder="Your message here..."></textarea>
+      </div>
+      <div>
+        <button type="submit"
+                class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors">
+          Send Message
+        </button>
+      </div>
+    </form>
+    <p class="mt-6 text-xs text-gray-500 text-center">
+      Note: This form will open your default email client.
+    </p>
+  </main>
+
+  <!-- FOOTER (Same as index.html) -->
+  <footer class="max-w-4xl mx-auto text-center mt-12 mb-8 py-6 text-sm text-gray-500 border-t border-gray-200 px-4 sm:px-6 lg:px-8">
+    © 2025 ZeroTrace GPT ·
+    <a href="privacy-policy.html" class="hover:text-green-600 underline">Privacy Policy</a> ·
+    <a href="contact.html" class="hover:text-green-600 underline">Contact</a>
+    <p class="mt-2">ZeroTrace GPT is an independent project and is not affiliated with OpenAI.</p>
+  </footer>
+</body>
+</html>
